@@ -1,0 +1,136 @@
+/*STYLING*/
+
+body {
+    text-align: center;
+    margin: 0;
+    background-color: #222;
+}
+
+/*SCROLLBAR STYLES*/
+
+::-webkit-scrollbar {
+    background-color: #222;
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #cedde9;
+    border-radius: 20px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #b1b8be;
+}
+
+/*HEADING STYLES*/
+
+.header {
+    background-color: rgb(69, 131, 189);
+    margin: 0;
+    padding: 0;
+}
+
+.title {
+    font-size: xx-large;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+}
+
+.subtitle {
+    font-size: x-large;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/*SECTION STYLES*/
+
+#grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.section {
+    margin: auto;
+    margin-bottom: 35px;
+    position: relative;
+    background-color: #cedde9;
+    padding: 20px;
+    width: 750px;
+    height: 450px;
+    border-radius: 20px;
+}
+
+img {
+    position: absolute;
+    height: 300px;
+    bottom: calc(50% - 150px);
+    left: 20px;
+    border-radius: 20px;
+    border: 5px solid black;
+}
+
+.output {
+    width: 40%;
+    height: fit-content;
+    margin: 0;
+    position: absolute;
+    right: 0;
+    bottom: calc(50% - 50px);
+}
+
+.sectionTitle {
+    font-size: x-large;
+    text-decoration: underline;
+    margin-bottom: 20px;
+}
+
+.sectionResults {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.googleLensOutput,
+.mobileNetOutput {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 500;
+}
+
+/*FOOTER STYLES*/
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    color: black;
+    background-color: hsla(197, 90%, 56%, 0.65);
+    font-family: monospace;
+}
+
+/*RESULTS STYLES*/
+
+#results {
+    background-color: hsl(207, 60%, 86%);
+    width: 400px;
+    height: 150px;
+    border-radius: 20px;
+    margin: auto;
+    margin-bottom: 100px;
+}
+
+#resultsHeader {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    margin: 0;
+}
+
+#finalResults, #winner {
+    font-size: 17.5px;
+    padding-top: 2px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#finalResults {
+    font-size: 20px;
+    padding-top: 0px;
+}
